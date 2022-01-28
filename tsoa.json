@@ -1,0 +1,16 @@
+{
+  "entryFile": "src/server.ts",
+  "controllerPathGlobs": ["src/controllers/controller.ts"],
+  "swagger": {
+  "outputDirectory": "."
+  },
+  "routes": {
+  "basePath": "/",
+  "entryFile": "src/server.ts",
+  "routesDir": "src/routes"
+  },
+  "spec": {
+    "outputDirectory": "build",
+    "specVersion": 3
+  }
+}
